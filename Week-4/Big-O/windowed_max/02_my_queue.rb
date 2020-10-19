@@ -4,16 +4,16 @@ class MyQueue
     end
     
     def peek
-        @store.last
-      end
-    
-      def size
-        @store.size
-      end
+      @store.last
+    end
   
-      def empty?
-          @store.empty?
-      end
+    def size
+      @store.size
+    end
+
+    def empty?
+        @store.empty?
+    end
 
     def enqueue(val)
         @store.push(val)
